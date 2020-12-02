@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <body style="background-color:powderblue;"> 
-
-<p><a href="https://elizaar.github.io/creation101.html">back home</a></p>
   
 <h1 style="background-color:DodgerBlue; text-align:center">Creation 101</h1>
 <h3 style="text-align:center"> 
-  <a href="https://elizaar.github.io/week1.html">| W1 |</a> 
+  <a href="https://elizaar.github.io/creation101.html">| Home |</a>
+  <a href="https://elizaar.github.io/week1.html"> W1 |</a> 
   <a href="https://elizaar.github.io/week2.html"> W2 |</a> 
   <a href="https://elizaar.github.io/week3.html"> W3 |</a> 
   <a href="https://elizaar.github.io/week4.html"> W4 |</a> 
@@ -16,16 +15,75 @@
   <a href="https://elizaar.github.io/week8.html"> W8 |</a>
   <a href="https://elizaar.github.io/week9.html"> W9 |</a> 
   <a href="https://elizaar.github.io/week10.html"> W10 |</a> 
-  <a href="https://elizaar.github.io/week11.html"> W11 |</a> 
-  <a href="https://elizaar.github.io/week12.html"> W12 |</a> 
-  <a href="https://elizaar.github.io/week13.html"> W13 |</a></h1>	
+  <a href="https://elizaar.github.io/week11.html"> W11 |</a>
+  <a href="https://elizaar.github.io/week13.html"> Final Project |</a></h1>
   
-<h1>Week Thirteen: Final Project!</h1>
-<h2>Vision</h2>
-<p>this will be my vision</p>
+<h1>Final Project!</h1>
+<h2>Process</h2>
+<h1>Step One: Idea</h1>
+<p>Refer to week one for my original idea and sketches</p>
 
-<h2>Notes</h2>
-<p>these will be my notes</p>
+<h1>Step Two: LCD set up</h1>
+<p>Connecting the LCD to my arduino took some trial and error.
+I first used TinkerCAD to model the parts and find basic code.
+This would have been a great place to start except that the LCD I was using had different pins than the one on TinkerCAD. 
+After following a different tutorial specific to my LCD it was simple to put together, although a bit unwieldy because of the many wires and large breadboard required. 
+<br>
+Once all my wires were correctly hooked up, my LCD screen lit up, success!<p> 
+
+<h1>Step Three: Coding LCD</h1>
+<p>This was by far the most difficult step. 
+Because I had no previous experience with C++, or really any coding, I did not even know where to begin. 
+Dr. Smalley helped me through the coding process, and by the end, I think I was starting to understand some of the basic concepts. 
+<br>
+We again modeled the code in TinkerCAD. 
+It took quite a while to figure out how to make the code work the way I wanted it to. 
+You would think it would be fairly simple to code an LCD to count to twenty. 
+If you thought that you would be wrong. 
+Well, at least it wasn’t easy for us (or more accurately, for Dr. Smalley. I wasn’t much help at this part.)
+<br>
+Part of the problem was with TinkerCAD, or so we thought. 
+The code, even the code provided by TinkerCAD was not working. 
+The screen would stay blank. Remember in step two, when I reported that my LCD had successfully lit up? 
+Well, just like on TinkerCAD, that is all it did. 
+Both real and modeled LCDs did not display the words: “Wash your hands!” and count to twenty as they were supposed to. 
+After much confusion, we finally figured out that the seemingly useless potentiometer actually controlled the contrast on the screen. 
+After tuning the potentiometer, the words and count showed up beautifully on both screens.</p> 
+
+<h1>Step Four: PIR Motion Sensor</h1>
+<p>Setting up the motion sensor was easy. 
+Setting up the motion sensor on the same Arduino as my original LCD did not work. 
+There were way too many wires! Luckily the shop sells an Arduino that only uses four pins. 
+Once this new Arduino was up and running it was simple to attach the motion sensor to the Arduino.
+<br>
+Per the usual, coding was a challenge. 
+It took hours of work with both Dr. Smalley and Elias to figure out how to write code that would activate the count when the motion sensor was activated.
+ Once we finally got it, the code worked pretty seamlessly from there on out</p>
+
+<h1>Step Five: Packaging</h1>
+<p>Now that my internal mechanisms were working perfectly I needed to package them up nicely. 
+I did this by creating a laser cut box with openings for the LCD and PIR and power cord. 
+Dillon found a handy <a href=”https://boxdesigner.connectionlab.org/”> site</a> for creating the .svg file for laser cut boxes.
+I then modified the file in adobe illustrator to add the openings.
+<br>
+Getting Adobe Illustrator working took a bit of work and a long phone call with OIT because: Chromebooks. 
+But now I know how to use cloud apps on my Chromebook which is super helpful. 
+<br>
+To create a nice finish for my box I used wood glue to attach the veneer to the top of the wood.
+Luckily Jenna did this before I did so she had worked out the kinks. 
+Basically, it took a lot of glue, tape, elbow grease, and a hot iron. 
+It actually worked better than I thought it would. 
+<br>
+Dr. Smalley cut my pieces on his glowforge at home.
+He cut me two boxes, one with a veneer and one without.
+I think he did this because the one with the veneer got kind of burnt. 
+It was actually for the best though, because I had not paid attention to where the power cord needed to go, and the non-reversible veneered piece had the opening on the wrong side. 
+I ended up using the plain box which I then covered in patterned paper using mod podge. 
+The finished style is different than it would have been with the veneer, but I really like how it turned out!
+</p>
+
+<h2>I now have a functional handwashing timer! Hooray!</h2>
+
 
 </body>
 </html>
